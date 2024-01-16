@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>yaa</title>
+        <link rel="stylesheet" href="style4.css" />
+    </head>
+    <body>
+        <div class="circle">
+            <button id="btn_music" onclick="music()" class="tombol">
+                <img title="pencet dong" src="download-removebg-preview (9).png" class="gmbar"/>
+            </button>
+        </div>
+        <audio id="bgMusic" src="ssstik.io_1704155973154.mp3" loop></audio>
+        <div class="udah">
+            <p class="kata">udaah,tk rapike dikit2, kro tk tambahi sitik bn rodok apik, dan yaa ini buat kamuu :).
+                aku cma pngn ngomong nk aku ga iso urip nk ga kro uee😭😭😭😭, nk pngn crita lengkape aku sg lngsung ngomong, makasih
+            </p>
+            
+        </div>
+
+        <div class="back">
+            <a href="index.html" class="HOOO" >waktunya ke berandaaa, jangan lupa dipencet kadonyaa</a>
+
+        </div>
+
+        
+    </body>
+    <script>
+        alert('inget pencet kucing')
+        var audioPlaying = false;
+        function music(){
+            var audio = document.getElementById("bgMusic");
+            if(!audioPlaying) audio.play();
+            else audio.pause();
+            audioPlaying = !audioPlaying
+        }
+    </script>
+</html> 

@@ -1,0 +1,97 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: violet
+}
+
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.tombol {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.one {
+
+    /* background-color: red; */
+    /* float: right; */
+    transform: rotate(6deg)
+
+}
+
+.two {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    transform: rotate(-6deg);
+}
+
+.three {
+    /* background-color: green; */
+    transform: rotate(6deg)
+
+    
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tblskr {
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font {
+    display: flex;
+    justify-content: center;
+
+    font-size: 70px;
+}
+
+.four {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    transform: rotate(-6deg);
+
+}
+
+.five {
+    /* background-color: gray; */
+    transform: rotate(6deg)
+
+}
+ 
+.six {
+    /* background-color: violet; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    transform: rotate(-6deg);
+
+}
+
+
+.gbr {
+    width: 400px;
+    height: 400px;
+}

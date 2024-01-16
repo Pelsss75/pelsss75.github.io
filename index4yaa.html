@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>yaa</title>
+        <link rel="stylesheet" href="style3.css" />
+    </head>
+    <body>
+        <div class="circle">
+            <button id="btn_music" onclick="music()" class="tombol">
+                <img title="pencet dong" src="download-removebg-preview (9).png" class="gmbar"/>
+            </button>
+        </div>
+        <audio id="bgMusic" src="ssstik.io_1703678561019.mp3" loop></audio>
+
+        <div class="ucapan">
+            <a href="index5sebuahkata.html" class="aaaa">
+                <img title="pencet dong" src="kuceng-removebg-preview.png" class="gmbar"/>
+            </a>
+            <p class="tulisan">makasih cantik, aku reti kok nk ue ijeh sayang walopun dikiiiiittttt bnget, maap yaah nk ue tersinggung goro2 testku sg iku, tapi sumprit aku ga dwe niatan nggo ngrendahke ue maap yaah, dilanjut yok hubungane yok bidadariku :), kita tumbuh bersama,berkembang bersama, dewasa bersama. yang kemarin biar jadi kemarin, udah saatnya kita buka halaman baru di buku kisah kita </p>
+        </div>
+        <div class="pilihan">
+            <ul>
+                <li class="yaa">
+                    <a href="index5sesuatu.html" class="oooo">pencet ini dulu yaaa</a>
+                </li>
+                <li class="yaa">
+                    <a href="index6udah.html" class="oooo">kalo udah klik ini</a>
+                </li>
+            </ul>
+           </div>
+    </body>
+    <script>
+        alert('inget pencet kucing')
+        var audioPlaying = false;
+        function music(){
+            var audio = document.getElementById("bgMusic");
+            if(!audioPlaying) audio.play();
+            else audio.pause();
+            audioPlaying = !audioPlaying
+        }
+    </script>
+</html>

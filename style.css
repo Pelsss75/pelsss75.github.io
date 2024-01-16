@@ -1,0 +1,106 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.poo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    /* width: 100%; */
+    height: 30vh;
+    border: 150px;
+    border-radius: 20px 30px;
+}
+
+.poo2 {
+    font-size: 100px;
+    color: aliceblue
+}
+
+.pencet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 100px;
+    background-color: rgb(212, 113, 1);
+    border-radius: 10px;
+    font-style: none;
+}
+
+.pencet:hover {
+    background-color: rgb(123, 57, 3);
+    transition: .4s ease-in;
+    transition-delay: .1s;
+    transition: .4s ease-out;
+    border-radius: 8px;
+    border: 30vh;
+
+}
+
+.opoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* .opoo:hover {
+    background-color: rgb(123, 57, 3);
+    transition: .4s ease-in;
+    transition-delay: .1s;
+    transition: .4s ease-out;
+    border-radius: 8px;
+    border: 30vh;
+} */
+
+.hadiah {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.hadiah{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;  /*buat ukurN sesuai device */
+
+}
+.biru{
+    width: 260px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.gmbar {
+    width: 40%;
+    height: 40%;
+}

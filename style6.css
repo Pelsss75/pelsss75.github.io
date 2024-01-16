@@ -1,0 +1,39 @@
+*, html {
+
+}
+
+body {
+    background-color: pink;
+    
+}
+
+.tulisan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.yoo:hover {
+    background-color: rgb(229, 146, 160);
+    transition: 1.5s ease-in-out;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-width: 100px;
+}
+
+/* .k {
+   transform: rotate(40deg);
+} */
+
+.k:hover {
+    background-color: rgb(229, 146, 160);
+    transition: 1s ease-in-out;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+}

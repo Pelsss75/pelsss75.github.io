@@ -1,0 +1,83 @@
+*, html {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle {
+    background-color: rgb(225, 120, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 180px;
+    border-radius: 360px;
+}
+
+.tombol {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.udah {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(225, 120, 75);
+    height: 40vh;
+    border-top-right-radius:   250px 25px;
+    border-bottom-left-radius: 250px 25px;
+    border-bottom-right-radius: 25px 250px;
+    border-top-left-radius: 25px 250px;
+}
+
+.kata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.back {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 120, 75);
+    border-top-right-radius:   400px 80px;
+    border-bottom-left-radius: 400px 80px;
+    border-bottom-right-radius: 80px 400px;
+    border-top-left-radius: 80px 400px;
+
+}
+
+.back:hover {
+    background-color: rgb(214, 99, 5);
+    transition: 1s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+        
+}
+
+.HOOO {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+
+.HOOO:hover {
+    color: white;
+    transition: 1s ease-in;
+    transition-delay: 1s;
+    transition: .4s ease-out;
+}

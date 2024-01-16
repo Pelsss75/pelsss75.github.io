@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: rgb(103, 103, 201);
+}
+
+.baca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.tombol {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.ktmu {
+    background-color: rgb(241, 76, 76);
+    border-radius: 10px;
+    height: 150px;
+    color: palegoldenrod;
+}
+
+.berdua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gbr {
+    width: 210px;
+    height: 280px;
+}
+
+.kcng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SESUATU</title>
+        <link rel="stylesheet" href="style7.css" />
+    </head>
+    <body>
+        <div class="circle">
+            <button id="btn_music" onclick="music()" class="tombol">
+                <img title="pencet dong" src="download-removebg-preview (9).png" class="gmbar"/>
+            </button>
+        </div>
+        <audio id="bgMusic" src="terasa indah.mp3" loop></audio>
+
+        <div class="one">
+            <img src="foto1(1).png" class="gbr" />
+            <p></p>
+        </div>
+        <div class="two">
+            <img src="foto2.png" class="gbr "/> 
+        </div>
+        <div class="three">
+            <img src="foto3.png"  class="gbr"/>
+
+        </div>
+        <div class="mid">
+            <a href="index5sakral.html" class="tblskr">
+                <img src="download-removebg-preview (11).png" class="gbr"/>
+                <h1 class="font">Sakral</h1>
+            </a>
+        </div>
+        <div class="four">
+            <img src="foto4.png" class="gbr"/>
+
+        </div>
+        <div class="five">
+            <img src="foto5.png" class="gbr"  />
+
+        </div>
+        <div class="six">
+            <img src="foto6.png"  class="gbr"/>
+
+        </div>
+        <div class="mid">
+            <a href="index5bersyukur.html" class="tblskr">
+                <img src="bersyukur.png" class="gbr"/>
+                <h1 class="font">Bersyukur</h1>
+            </a>
+        </div>
+
+        <div class="five">
+            <img src="foto7.png" class="gbr"  />
+
+        </div>
+        <div class="six">
+            <img src="foto8.png"  class="gbr"/>
+
+        </div>
+        <div class="five">
+            <img src="foto9.png" class="gbr"  />
+
+        </div>
+        <div class="five">
+            <img src="nahida.png" class="gbr"  />
+
+        </div>
+        <div class="six">
+            <img src="foto10.png"  class="gbr"/>
+
+        </div>
+        <div class="six">
+            <img src="nahida2.png"  class="gbr"/>
+
+        </div>
+        <div class="five">
+            <img src="foto11.png" class="gbr"  />
+
+        </div>
+        <div class="six">
+            <img src="foto12.png"  class="gbr"/>
+
+        </div>
+        <div class="five">
+            <img src="foto13.png" class="gbr"  />
+
+        </div>
+
+        
+    </body>
+    <script>
+        alert('inget pencet kucing')
+        var audioPlaying = false;
+        function music(){
+            var audio = document.getElementById("bgMusic");
+            if(!audioPlaying) audio.play();
+            else audio.pause();
+            audioPlaying = !audioPlaying
+        }
+    </script>
+</html>
